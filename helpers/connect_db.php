@@ -1,8 +1,14 @@
 <?php
-  $db_server = 'localhost';
-  $db_user = 'the_mooc_master';
-  $db_pwd = 'superhappyfuntimemoocland!';
-  $db_name = 'mooc_database';
+/*
+PLEASE NOTE:
+The Database connection information listed below has been redacted for security reasons.
+*/
+
+  $db_server = 'XYZ_server';
+  $db_user = 'XYZ_user';
+  $db_pwd = 'XYZ_password';
+  $db_name = 'XYZ_db_name';
+
 
   $the_connector = new mysqli($db_server, $db_user, $db_pwd, $db_name); //calling the connection 
   
